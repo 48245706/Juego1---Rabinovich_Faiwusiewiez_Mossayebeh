@@ -5,7 +5,6 @@ using UnityEngine;
 public class ProductoDer : MonoBehaviour
 {
     public int precio;
-    // Start is called before the first frame update
     void Start()
     {
         
