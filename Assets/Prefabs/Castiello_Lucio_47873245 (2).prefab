@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2563649317014904930}
   - component: {fileID: 2563649317016232002}
   - component: {fileID: 2563649317017330306}
-  - component: {fileID: 1043031984627998185}
+  - component: {fileID: 5056045927645780534}
   m_Layer: 0
   m_Name: Castiello_Lucio_47873245 (2)
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1043031984627998185
+--- !u!114 &5056045927645780534
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,6 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2563649317015338050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5e69306f9970441933fce1fc347e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 40

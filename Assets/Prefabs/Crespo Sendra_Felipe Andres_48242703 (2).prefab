@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 137007077009397351}
   - component: {fileID: 137007077010200135}
   - component: {fileID: 137007077011297415}
-  - component: {fileID: 1979450101644261434}
+  - component: {fileID: 1704045341617731812}
   m_Layer: 0
   m_Name: Crespo Sendra_Felipe Andres_48242703 (2)
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1979450101644261434
+--- !u!114 &1704045341617731812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,6 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 137007077009361479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5e69306f9970441933fce1fc347e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 20

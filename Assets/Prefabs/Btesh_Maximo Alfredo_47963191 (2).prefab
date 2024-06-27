@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 2408573667976175837}
   - component: {fileID: 2408573667976945917}
   - component: {fileID: 2408573667978076733}
-  - component: {fileID: 6174796449280369422}
-  - component: {fileID: 5177142568978384797}
+  - component: {fileID: 114560722023838350}
   m_Layer: 0
   m_Name: Btesh_Maximo Alfredo_47963191 (2)
   m_TagString: Untagged
@@ -79,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &6174796449280369422
+--- !u!114 &114560722023838350
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,18 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2408573667976150269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5e69306f9970441933fce1fc347e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5177142568978384797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2408573667976150269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  precio: 25

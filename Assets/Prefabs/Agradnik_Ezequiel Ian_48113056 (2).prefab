@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4214400942065893387}
   - component: {fileID: 4214400942065090603}
   - component: {fileID: 4214400942064124651}
-  - component: {fileID: 7302028338730340}
+  - component: {fileID: 4514840239325312593}
   m_Layer: 0
   m_Name: Agradnik_Ezequiel Ian_48113056 (2)
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &7302028338730340
+--- !u!114 &4514840239325312593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,6 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4214400942066326571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5e69306f9970441933fce1fc347e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 10

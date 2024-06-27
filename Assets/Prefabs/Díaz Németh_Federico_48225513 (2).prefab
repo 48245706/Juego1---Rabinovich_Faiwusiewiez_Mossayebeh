@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5811360111457352821}
   - component: {fileID: 5811360111460777045}
   - component: {fileID: 5811360111459778197}
-  - component: {fileID: 617443148121804832}
+  - component: {fileID: 1890330612704186179}
   m_Layer: 0
   m_Name: "D\xEDaz N\xE9meth_Federico_48225513 (2)"
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &617443148121804832
+--- !u!114 &1890330612704186179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,6 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5811360111457574997}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5e69306f9970441933fce1fc347e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 83

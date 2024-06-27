@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6353307253298432246}
   - component: {fileID: 6353307253301332182}
   - component: {fileID: 6353307253300333078}
-  - component: {fileID: 4246350983828451945}
+  - component: {fileID: 6894396981926268116}
   m_Layer: 0
   m_Name: Garcia De Garcia Teuly_Joaquin_48588253 (2)
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4246350983828451945
+--- !u!114 &6894396981926268116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,6 +87,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6353307253298402518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5e69306f9970441933fce1fc347e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 13

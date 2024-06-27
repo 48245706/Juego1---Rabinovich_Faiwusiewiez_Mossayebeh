@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8752255411177431704}
-  - component: {fileID: 186701892063412271}
+  - component: {fileID: 3430882754691920835}
   m_Layer: 0
   m_Name: Vernik_Benjamin_48240177 (2)
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &186701892063412271
+--- !u!114 &3430882754691920835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,9 +42,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8752255411177864888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f6d52046383d9449dad0c17c373047, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5e69306f9970441933fce1fc347e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 17
 --- !u!1 &8752255411177864892
 GameObject:
   m_ObjectHideFlags: 0
