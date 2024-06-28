@@ -102,6 +102,9 @@ public class SumaPrecios : MonoBehaviour
     public void botonVolverAIntentar()
     {
         respuestaIncorrecta.SetActive(false);
+        InputFieldParaIngresarNumero.text = "";
+        DeactivateAll();
+        Activate();
     }
 
     void botonSalir()
@@ -111,7 +114,7 @@ public class SumaPrecios : MonoBehaviour
 
     public void botonReiniciar()
     {
-        respuestaIncorrecta.SetActive(false);
+        respuestaCorrecta.SetActive(false);
         InputFieldParaIngresarNumero.text = "";
         DeactivateAll();
         Activate();
