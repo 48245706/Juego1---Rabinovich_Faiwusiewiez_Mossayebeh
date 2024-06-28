@@ -17,11 +17,13 @@ public class SumaPrecios : MonoBehaviour
     public GameObject respuestaIncorrecta;
     int precio1;
     int precio2;
+    int Precio1;
+    int Precio2;
     // Start is called before the first frame update
     void Start()
     {
         DeactivateAll();
-        Active();
+        Activate();
     }
 
     // Update is called once per frame
@@ -32,68 +34,70 @@ public class SumaPrecios : MonoBehaviour
     }
     void DeactivateAll()
     {
-        for(int i=0; i < producto1.Length; i++)
+        foreach(GameObject g1 in producto1)
         {
-            producto1[i].SetActive(false);
-            producto2[i].SetActive(false);
-            respuestaIncorrecta.SetActive(false);
-            respuestaCorrecta.SetActive(false);
-           
+            g1.SetActive(false);
+        }
+        foreach(GameObject g2 in producto2)
+        {
+            g2.SetActive(false);
         }
     }
-
-    void Active()
+    void Activate()
     {
         precio1 = Random.Range(0, producto1.Length);
-        precio2 = Random.Range(0, producto1.Length);
+        precio2 = Random.Range(0, producto2.Length);
         producto1[precio1].transform.position = new Vector3(6f, 0f, 0f);
         producto2[precio2].transform.position = new Vector3(-6f, 0f, 0f);
         producto1[precio1].SetActive(true);
         producto2[precio2].SetActive(true);
-        int Precio1 = producto1[precio1].GetComponent<ProductoDer>().precio;
-        int Precio2 = producto2[precio2].GetComponent<ProductoDer>().precio;
+        Precio1 = producto1[precio1].GetComponent<ProductoDer>().precio;
+        Precio2 = producto2[precio2].GetComponent<ProductoDer>().precio;
+        Debug.Log("Precio 1 : " + Precio1 + " Precio 2 : " + Precio2);
         TextoSimboloDePesos1.text = "$" + Precio1.ToString();
         TextoSimboloDePesos2.text = "$" + Precio2.ToString();
-    }
-    public void botonResponder()
-    {
-        Text respuestaText = respuesta.GetComponentInChildren<Text>();
 
-        if (respuestaText != null && string.IsNullOrEmpty(respuestaText.text))
+        Debug.Log(gameObject.name);
+    }
+    
+    public void otonResponder()
+    {
+        Debug.Log("Botón Responder presionado");
+
+        string respuestaText = InputFieldParaIngresarNumero.text;
+        int numeroIngreso = int.Parse(respuestaText);
+
+        Debug.Log("Texto de respuesta: " + numeroIngreso);
+
+        if (string.IsNullOrEmpty(respuestaText))
         {
+            Debug.Log("Respuesta está vacía");
             respuestaCorrecta.SetActive(false);
             respuestaIncorrecta.SetActive(false);
         }
-        else if (respuestaText != null)
+        else
         {
-            int Precio1 = producto1[precio1].GetComponent<ProductoDer>().precio;
-            int Precio2 = producto2[precio2].GetComponent<ProductoDer>().precio;
             int precioTotal = Precio1 + Precio2;
-            int respuestaUser;
+            Debug.Log("Precio Total: " + precioTotal);
 
-            if (int.TryParse(respuestaText.text, out respuestaUser))
-            {
-                if (respuestaUser == precioTotal)
+                Debug.Log("Respuesta del usuario: " + numeroIngreso);
+                if (numeroIngreso == precioTotal)
                 {
+                    Debug.Log("Respuesta Correcta");
                     respuestaCorrecta.SetActive(true);
                     respuestaIncorrecta.SetActive(false);
                 }
                 else
                 {
+                    Debug.Log("Respuesta Incorrecta");
                     respuestaCorrecta.SetActive(false);
                     respuestaIncorrecta.SetActive(true);
                 }
-            }
-            else
-            {
-                respuestaCorrecta.SetActive(false);
-                respuestaIncorrecta.SetActive(false);
-            }
+
+            // Si el num ingreso, que se parsea a int, es igual a la suma de los precios
+            // devolver panelCorrecto (active) if(ingreso == valor) --> correctro(active)
         }
     }
-
-
-
 
     public void botonVolverAIntentar()
     {
@@ -107,7 +111,10 @@ public class SumaPrecios : MonoBehaviour
 
     public void botonReiniciar()
     {
-        SceneManager.LoadScene("Juego");
+        respuestaIncorrecta.SetActive(false);
+        InputFieldParaIngresarNumero.text = "";
+        DeactivateAll();
+        Activate();
     }
 
 }
