@@ -19,14 +19,13 @@ public class SumaPrecios : MonoBehaviour
     int precio2;
     int Precio1;
     int Precio2;
-    // Start is called before the first frame update
+
     void Start()
     {
         DeactivateAll();
         Activate();
     }
 
-    // Update is called once per frame
     void Update()
     {
       
