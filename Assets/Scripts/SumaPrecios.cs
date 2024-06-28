@@ -106,7 +106,6 @@ public class SumaPrecios : MonoBehaviour
 
     void botonSalir()
     {
-        Debug.Log("Botón Salir presionado");
         SceneManager.LoadScene("Seleccionar Juegos");
     }
 
