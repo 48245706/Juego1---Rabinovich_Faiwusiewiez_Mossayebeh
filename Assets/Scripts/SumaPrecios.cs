@@ -94,8 +94,6 @@ public class SumaPrecios : MonoBehaviour
                     respuestaIncorrecta.SetActive(true);
                 }
 
-            // Si el num ingreso, que se parsea a int, es igual a la suma de los precios
-            // devolver panelCorrecto (active) if(ingreso == valor) --> correctro(active)
         }
     }
 
@@ -109,6 +107,7 @@ public class SumaPrecios : MonoBehaviour
 
     void botonSalir()
     {
+        Debug.Log("Botón Salir presionado");
         SceneManager.LoadScene("Seleccionar Juegos");
     }
 
@@ -119,5 +118,4 @@ public class SumaPrecios : MonoBehaviour
         DeactivateAll();
         Activate();
     }
-
 }

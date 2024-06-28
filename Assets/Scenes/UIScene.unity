@@ -3662,6 +3662,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1842876493623106766, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842876493623106767, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1842876493848860913, guid: cc9723184edf451448b87f7514000c91,
         type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -3696,13 +3706,43 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 337951252}
+    - target: {fileID: 1842876494284902337, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: botonVolverAIntentar
       objectReference: {fileID: 0}
     - target: {fileID: 1842876494284902337, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842876494612312882, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842876494612312882, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842876494612312882, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842876494612312882, guid: cc9723184edf451448b87f7514000c91,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 337951252}
+    - target: {fileID: 1842876494612312882, guid: cc9723184edf451448b87f7514000c91,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: botonReiniciar
       objectReference: {fileID: 0}
-    - target: {fileID: 1842876494284902337, guid: cc9723184edf451448b87f7514000c91,
+    - target: {fileID: 1842876494612312882, guid: cc9723184edf451448b87f7514000c91,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
